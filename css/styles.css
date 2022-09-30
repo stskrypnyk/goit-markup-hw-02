@@ -1,0 +1,24 @@
+.page {
+    color: #757575;
+    background-color: #F5F5F5;
+}
+
+.logo{
+    color: #000000;
+}
+
+ul {
+list-style: none;
+}
+
+.site-nav a {
+    color: #212121;
+}
+/* колір основного тексту #757575 /*
+/* чорний #212121, Студія #000000/*
+/* білий background: #FFFFFF /*
+/* синій background: #2196F3 /*
+/* фон мейн #2F303A /*
+/* фон боди #F5F5F5 /*
+/* фон команди #F5F4FA /*
+/* footer #2F303A /*
