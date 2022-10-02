@@ -1,19 +1,66 @@
 .page {
     color: #757575;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
+ul{
+    list-style: none;
+}
+
+/* Logo */
 .logo{
     color: #000000;
 }
 
-ul {
-list-style: none;
+.logo:hover,
+.logo:focus{
+    color: #2196F3;
 }
 
-.site-nav a {
+/* site-nav */
+.site-nav .link {
     color: #212121;
 }
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+/* Hero */
+.hero{
+    background-color: #2F303A;
+}
+
+.hero-title{
+    color: #FFFFFF;
+}
+
+.button{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* Section-title */
+.section-title{
+    color: #212121;
+}
+
+/* Footer */
+.footer{
+    background-color: #2F303A;
+}
+
+.address{
+    color: #FFFFFF;
+}
+/* Portfolio */
+
+.button {
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
 /* колір основного тексту #757575 /*
 /* чорний #212121, Студія #000000/*
 /* білий background: #FFFFFF /*
