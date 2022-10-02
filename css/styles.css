@@ -1,6 +1,9 @@
 .page {
     color: #757575;
     background-color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    letter-spacing: 0.03em;
 }
 
 ul{
@@ -10,6 +13,11 @@ ul{
 /* Logo */
 .logo{
     color: #000000;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #2196F3;
 }
 
 .logo:hover,
@@ -17,9 +25,21 @@ ul{
     color: #2196F3;
 }
 
+.logo-header{
+    color: #000000;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
 /* site-nav */
 .site-nav .link {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -33,6 +53,10 @@ ul{
 
 .link.secondary{
     color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .link.secondary:hover,
@@ -47,16 +71,39 @@ ul{
 
 .hero-title{
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .button{
     color: #FFFFFF;
     background-color: #2196F3;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    letter-spacing: 0.06em;
 }
 
 /* Section-title */
 .section-title{
     color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.advantages{
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .section-team{
@@ -65,6 +112,26 @@ ul{
 
 .description-title{
     color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.description-features{
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.name{
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.position{
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 /* Footer */
@@ -79,16 +146,37 @@ ul{
 
 .foot-link.primary{
     color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .foot-link.secondary{
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
 /* Portfolio */
 
-.button {
+.filter .button {
     color: #212121;
     background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.work-list .description-title{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.work-list .description{
+    font-size: 16px;
+    line-height: 1.8;
 }
 
 /* колір основного тексту #757575 /*
