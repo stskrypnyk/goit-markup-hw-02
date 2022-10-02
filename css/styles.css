@@ -27,6 +27,19 @@ ul{
     color: #2196F3;
 }
 
+.site-nav .link.current{
+    color: #2196F3
+}
+
+.link.secondary{
+    color: #757575;
+}
+
+.link.secondary:hover,
+.link.secondary:focus{
+    color: #2196F3;
+}
+
 /* Hero */
 .hero{
     background-color: #2F303A;
@@ -46,13 +59,30 @@ ul{
     color: #212121;
 }
 
+.section-team{
+    background-color: #F5F4FA;
+}
+
+.description-title{
+    color: #212121;
+}
+
 /* Footer */
 .footer{
     background-color: #2F303A;
 }
 
-.address{
+.foot-link:hover,
+.foot-link:focus{
+    color: #2196F3;
+}
+
+.foot-link.primary{
     color: #FFFFFF;
+}
+
+.foot-link.secondary{
+    color: rgba(255, 255, 255, 0.6);
 }
 /* Portfolio */
 
