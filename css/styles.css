@@ -190,23 +190,40 @@
 }
 /* Portfolio */
 
-.filter .button {
+.filter{
+    list-style: none;
+}
+
+.button-filter{
     color: var(--color-inverted);
     background-color: var(--color-background-accent);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
+    border: none;
+    cursor: pointer;
 }
 
-.work-list .description-title{
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
+.button-filter:hover,
+.button-filter:focus{
+    color: var(--color-brand);
 }
 
-.work-list .description{
+.project-list{
+    list-style: none;
+}
+
+.project-title{
+    color: var(--color-inverted);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-description{
+    color: var(--color-primary);
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
